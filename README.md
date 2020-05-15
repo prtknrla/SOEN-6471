@@ -13,7 +13,7 @@ This project is about designing, describing, implementing a proof-of-concept, an
 evaluating the software architecture of an HIS, namely iCare. The presence of an effective healthcare information system (HIS) is central to the
 success of Health Informatics in an organization.
 
-# Team Members: TEAM B
+# Team Members: TEAM E
 
 Abdul Sadiq Mohammad          :  401, Email : sadiqmohammad214@gmail.com
 
@@ -30,7 +30,9 @@ Mohammad Reza Navazani		  :  400, Email : mre.navazani@gmail.com
 # GIT HUB link : https://github.com/prtknrla/SOEN-6471.git
 
 # Roles and Responsibilities:
+
 Deliverable 1
+
 # Abdul Sadiq Mohammad
 
 
