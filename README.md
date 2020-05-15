@@ -21,7 +21,7 @@ Sardar Mutesham Ali Mohammed  :  400, Email : sardarms9@gmail.com
 
 Pranoti Mulay                 :  400, Email : opranoti@gmail.com
 
-Manasa Murali                 :  400, Email :  m.manasamurali@gmail.com
+Manasa Murali                 :  40082609, Email :  m.manasamurali@gmail.com
 
 Prateek Narula                :  40091466, Email : narula.prateek20@gmail.com
 
