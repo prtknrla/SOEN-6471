@@ -13,35 +13,60 @@ This project is about designing, describing, implementing a proof-of-concept, an
 evaluating the software architecture of an HIS, namely iCare. The presence of an effective healthcare information system (HIS) is central to the success of Health Informatics in an organization.
 
 # Team Members: TEAM E
-Abdul Sadiq Mohammad          :  401, Email : sadiqmohammad214@gmail.com
+Abdul Sadiq Mohammad          :  40092546, Email : sadiqmohammad214@gmail.com
 
-Sardar Mutesham Ali Mohammed  :  400, Email : sardarms9@gmail.com
+Sardar Mutesham Ali Mohammed  :  40094168, Email : sardarms9@gmail.com
 
-Pranoti Mulay                 :  400, Email : opranoti@gmail.com
+Pranoti Mulay                 :  40129435, Email : opranoti@gmail.com
 
 Manasa Murali                 :  40082609, Email :  m.manasamurali@gmail.com
 
 Prateek Narula                :  40091466, Email : narula.prateek20@gmail.com
 
-Mohammad Reza Navazani		  :  400, Email : mre.navazani@gmail.com
+Mohammad Reza Navazani		    :  40111411, Email : mre.navazani@gmail.com
 
-# GIT HUB link : https://github.com/prtknrla/SOEN-6471.git
+# GIT HUB Link : https://github.com/prtknrla/SOEN-6471.git
+# GOOGLE DRIVE Link : https://drive.google.com/drive/folders/1YDOueMJO_3VMtFyqNzpQSYA_lhDRwUQz
 
 # Roles and Responsibilities:
 
 Deliverable 1
 
 # Abdul Sadiq Mohammad
+1. LateX document creation
+2. Shareholders and Concerns creation
+3. Implementation view creation
+4. Implementing the proof of concept
 
 # Sardar Mutesham Ali Mohammed
+1. LateX document creation
+2. Technical Document Creation
+3. Logical view creation
+4. Implementing the proof of concept
   
 # Pranoti Mulay
+1. LateX document creation
+2. Business goal using GQM framework
+3. Architectural Decision
+4. Implementing the proof of concept
 
 # Prateek Narula
+1. LateX document creation
+2. Technical Document Creation
+3. Process view creation
+4. Implementing the proof of concept
 
 # Manasa Murali
+1. LateX document creation
+2. Business goal using GQM framework
+3. Use Case and Deployment view
+4. Implementing the proof of concept
 
 # Mohammad Reza Navazani	
+1. LateX document creation
+2. Shareholder and Concerns creation
+3. Architectural Decision
+4. Implementing the proof of concept
 
 
 This Project is a partial implementation of iCare Health Service system which would be used to schedule appointments will a Doctor in a faster and efficient way. The documentation related to the project itself will be provided seperately in LaTex formatted document (as sugggested by the professor). However, Inorder to download run the project, the below information is required for system startup.
