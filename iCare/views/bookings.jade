@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title  Bookings
+  body
+    table
+      tr
+        td NAME
+        |     
+        td ID
+        |     
+        td REQUEST DATE
+        |     
+        td DOCTOR
+        |     
+        td DOCTOR ID
+        |     
+        td NURSE
+        |     
+        td NURSE ID
+    - var c = parseInt(pos);
+    - var n = 0;
+    table
+      while n < c
+        p !{params[n].userid}
+        tr
+          td !{params[n].username}
+          td !{params[n].userid}
+          td !{params[n].date}
+          td !{params[n].docname}
+          td !{params[n].docid}
+          td !{params[n].nursename}
+          td !{params[n++].nurseid}
+    a(href='/appointment_check') Back;
+

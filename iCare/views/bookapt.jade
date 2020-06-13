@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title  Appointment Lookup 
+  body
+    table
+      tr
+    - var c = parseInt(pos);
+    - var n = 0;
+    table
+      while n < c
+        tr
+          td Name: !{params[n].username}
+          td User ID: !{params[n].userid}
+          td Date: !{params[n].date}
+          td
+            a(href='/appointment/schedule/'+params[n++].userid) Schedule Now;
+
