@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Records 
+  body
+    table
+      tr
+        td NAME
+    - var c = parseInt(pos);
+    - var n = 0;
+    table
+      while n < c
+        p !{params[n].userid}
+        tr
+          td NAME: !{params[n].username}
+          td ID: !{params[n].userid}
+          td DATE: !{params[n].date}
+          td BLOOD PRESSURE: !{params[n].bp}
+          td SUGAR LEVEL: !{params[n].sugarlevel}
+          td PULSE RATE: !{params[n++].pulse}
+    a(href='/doctor/'+doc) Back;
+
