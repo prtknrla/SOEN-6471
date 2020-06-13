@@ -1,0 +1,154 @@
+doctype html(lang='en')
+head
+    // Required meta tags
+    meta(charset='utf-8')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    |     
+    title medical
+    |     
+    link(rel='icon', href='img/favicon.png')
+    // Bootstrap CSS
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    // animate CSS
+    link(rel='stylesheet', href='css/animate.css')
+    // owl carousel CSS
+    link(rel='stylesheet', href='css/owl.carousel.min.css')
+    // themify CSS
+    link(rel='stylesheet', href='css/themify-icons.css')
+    // flaticon CSS
+    link(rel='stylesheet', href='css/flaticon.css')
+    // magnific popup CSS
+    link(rel='stylesheet', href='css/magnific-popup.css')
+    // nice select CSS
+    link(rel='stylesheet', href='css/nice-select.css')
+    // swiper CSS
+    link(rel='stylesheet', href='css/slick.css')
+    // style CSS
+    link(rel='stylesheet', href='css/style.css')
+  body
+    // ::header part start::
+    header.main_menu
+      .container
+        .row.align-items-center
+          .col-lg-12
+            nav.navbar.navbar-expand-lg.navbar-light
+              // <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              |     
+              |                             
+              #navbarSupportedContent.collapse.navbar-collapse.main-menu-item.justify-content-end
+                ul.navbar-nav.align-items-center
+                  li.nav-item.active
+                    a.nav-link(href='/') Home
+                  |                                     
+                  li.nav-item
+                    a.nav-link(href='login.html') Sin Up
+                  // <li class="nav-item">
+                  // <a class="nav-link" href="Doctor.html">Doctors</a>
+                  // </li>
+    // Header part end
+    // breadcrumb start
+    section.breadcrumb.breadcrumb_bg
+      .container
+        .row
+          .col-lg-12
+            // <div class="breadcrumb_iner">
+            .breadcrumb_iner_item
+              h2 Sin Up
+              |                             
+              p
+                | Home
+                span /
+                | Sign Up
+            // </div>
+    // ::regervation_part start::
+    section.regervation_part.padding_bottom.section_padding
+      .container
+        .row.align-items-center.regervation_content
+          .col-lg-7.col-md-6
+            .regervation_part_iner
+              h2 Patient Register Form
+              |       
+              form(action='/patient_signup', method='post')
+                ul 
+                  li
+                    label(for='name') Name:
+                    input#name(type='text', name='name')
+                  li
+                    label(for='uid') User ID:
+                    input#uid(type='text', name='uid')
+                  li
+                    label(for='password') Password:  
+                    input#password(type='text', name='password')
+                  li
+                    label(for='email') Email 
+                    input#email(type='text', name='email')
+                  li.button                             
+                    button(type='submit') Submit
+          .col-lg-5.col-md-6
+            .reservation_img
+              img(src='../img/reservation.png', alt='')
+    .copyright_part
+      .container
+        .row.align-items-center
+          p.footer-text.m-0.col-lg-8.col-md-12
+            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+            | Copyright &copy;
+            script.
+              document.write(new Date().getFullYear());
+            |  All rights reserved | This template is made with 
+            i.ti-heart(aria-hidden='true')
+            |  by 
+            a(href='https://colorlib.com', target='_blank') Colorlib
+            // Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
+          |                     
+          .col-lg-4.col-md-12.text-center.text-lg-right.footer-social
+            a(href='#')
+              i.ti-facebook
+            |                         
+            a(href='#')
+              i.ti-twitter
+            |                         
+            a(href='#')
+              i.ti-instagram
+            |                         
+            a(href='#')
+              i.ti-skype
+    // footer part end
+    // jquery plugins here
+    script(src='js/jquery-1.12.1.min.js')
+    // popper js
+    script(src='js/popper.min.js')
+    // bootstrap js
+    script(src='js/bootstrap.min.js')
+    // easing js
+    script(src='js/jquery.magnific-popup.js')
+    // swiper js
+    script(src='js/swiper.min.js')
+    // swiper js
+    script(src='js/masonry.pkgd.js')
+    // particles js
+    script(src='js/owl.carousel.min.js')
+    |     
+    script(src='js/jquery.nice-select.min.js')
+    // swiper js
+    script(src='js/slick.min.js')
+    |     
+    script(src='js/jquery.counterup.min.js')
+    |     
+    script(src='js/waypoints.min.js')
+    // contact js
+    script(src='js/jquery.ajaxchimp.min.js')
+    |     
+    script(src='js/jquery.form.js')
+    |     
+    script(src='js/jquery.validate.min.js')
+    |     
+    script(src='js/mail-script.js')
+    |     
+    script(src='js/contact.js')
+    // custom js
+    script(src='js/custom.js')
+

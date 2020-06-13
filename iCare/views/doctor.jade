@@ -1,0 +1,81 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    |     
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    |     
+    title medical
+    |     
+    link(rel='stylesheet', href='css/bootstrap.min.css')
+    |     
+    link(rel='stylesheet', href='css/style.css')
+  body
+    header.main_menu
+      .container
+        .row.align-items-center
+          .col-lg-12
+            nav.navbar.navbar-expand-lg.navbar-light
+              button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+                span.navbar-toggler-icon
+              |     
+              |                             
+              #navbarSupportedContent.collapse.navbar-collapse.main-menu-item.justify-content-end
+                ul.navbar-nav.align-items-center
+                  li.nav-item.active
+                    a.nav-link(href='/') Home
+                  |                                     
+                  li.nav-item
+                    a.nav-link(href='login.html') Sin In
+                  |                                     
+                  li.nav-item
+                    a.nav-link(href='patient.html') Patient
+                  |                                     
+                  li.nav-item
+                    a.nav-link(href='doctor.html') Doctor
+    |     
+    section.breadcrumb.breadcrumb_bg
+      .container
+        .row
+          .col-lg-12
+            .breadcrumb_iner_item
+              h2 Welcome !{uid}
+              |                             
+              p
+                | Home
+                span /
+                | Doctor
+    |     
+    section.regervation_part.padding_bottom.section_padding
+      .container
+        .row.align-items-center.regervation_content
+          .col
+            .regervation_part_iner
+              h3.mt-5 Check my Appointments
+              |                         
+              .row
+                .col
+                  form(action='/getDocApt', method='post')
+                    ul
+                      li
+                        label(for='docid') Doctor ID:
+                        input#docid(type='text', name='docid')
+                      li.button
+                        button(type='submit') SUBMIT
+                .vl
+                |                             
+                .col
+                  form(action='/getrecords', method='post')
+                    ul
+                      li
+                        label(for='docid') Doctor ID:
+                        input#docid(type='text', name='docid')
+                      li
+                        label(for='uid') User ID:
+                        input#uid(type='text', name='uid')
+                      li.button
+                        button(type='submit') Get Records
+    script(src='js/jquery-1.12.1.min.js')
+    |     
+    script(src='js/bootstrap.min.js')
+    |     
+    script(src='js/custom.js')
